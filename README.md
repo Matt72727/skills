@@ -21,3 +21,9 @@ Create `plugins/my-skills/skills/<skill-name>/SKILL.md`, bump `version` in
 ```
 /plugin marketplace update matt-skills
 ```
+
+## Bundled third-party skills
+
+`brag` and `brag-slim` are copied from https://github.com/latent-spaces/brag
+(MIT, by Shunit Haviv Hakimi; license in `plugins/my-skills/skills/brag/LICENSE`).
+They are a snapshot of v0.4.0 and don't update automatically.
