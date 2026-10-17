@@ -1,0 +1,11 @@
+{
+  "name": "matt-skills",
+  "owner": { "name": "Matt" },
+  "plugins": [
+    {
+      "name": "my-skills",
+      "source": "./plugins/my-skills",
+      "description": "Matt's personal skills"
+    }
+  ]
+}
