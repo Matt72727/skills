@@ -11,12 +11,8 @@ device (CLI, VS Code, desktop Code tab) uses the same skills.
 /plugin install my-skills@matt-skills
 ```
 
-To also install everything-claude-code (pulled from github.com/worldflowai/everything-claude-code).
-It bundles hooks and rules, so review them before enabling:
-
-```
-/plugin install everything-claude-code@matt-skills
-```
+That one command installs everything: my skills (brag, brag-slim, ...) and everything-claude-code
+(9 agents, 15 commands, 11 skills), vendored in this repo. Nothing is fetched from other repos.
 
 The repo is public, so no GitHub login is needed to install.
 
