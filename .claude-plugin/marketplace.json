@@ -7,15 +7,7 @@
     {
       "name": "my-skills",
       "source": "./plugins/my-skills",
-      "description": "Matt's personal skills"
-    },
-    {
-      "name": "everything-claude-code",
-      "source": {
-        "source": "github",
-        "repo": "worldflowai/everything-claude-code"
-      },
-      "description": "Agents, skills, commands, rules and hooks for TDD, code review and security (worldflowai fork)"
+      "description": "Matt's skills + everything-claude-code (agents, skills, commands) in one plugin"
     }
   ]
 }
