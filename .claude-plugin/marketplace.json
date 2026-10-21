@@ -1,11 +1,21 @@
 {
   "name": "matt-skills",
-  "owner": { "name": "Matt" },
+  "owner": {
+    "name": "Matt"
+  },
   "plugins": [
     {
       "name": "my-skills",
       "source": "./plugins/my-skills",
       "description": "Matt's personal skills"
+    },
+    {
+      "name": "everything-claude-code",
+      "source": {
+        "source": "github",
+        "repo": "worldflowai/everything-claude-code"
+      },
+      "description": "Agents, skills, commands, rules and hooks for TDD, code review and security (worldflowai fork)"
     }
   ]
 }

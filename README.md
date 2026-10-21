@@ -9,6 +9,12 @@ Personal Claude Code skills, distributed as a plugin marketplace.
 /plugin install my-skills@matt-skills
 ```
 
+To also install everything-claude-code (pulled from github.com/worldflowai/everything-claude-code):
+
+```
+/plugin install everything-claude-code@matt-skills
+```
+
 The repo is private, so the machine needs GitHub access (`gh auth login` or an SSH key).
 
 ## Add a skill
