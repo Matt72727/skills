@@ -8,6 +8,16 @@
       "name": "my-skills",
       "source": "./plugins/my-skills",
       "description": "Matt's skills + everything-claude-code (agents, skills, commands) in one plugin"
+    },
+    {
+      "name": "ecc",
+      "source": "./plugins/ecc",
+      "description": "Skills only, vendored from affaan-m/ecc (311 skills). Install only where wanted: it adds many skill descriptions to every session."
+    },
+    {
+      "name": "claude-mem-skills",
+      "source": "./plugins/claude-mem-skills",
+      "description": "Skills only, vendored from thedotmack/claude-mem (27 skills). Memory-search skills need the upstream plugin."
     }
   ]
 }

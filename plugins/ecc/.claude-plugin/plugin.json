@@ -1,0 +1,5 @@
+{
+  "name": "ecc",
+  "version": "2.2.3",
+  "description": "Skills only, vendored from affaan-m/ecc (MIT). No hooks, MCP servers, agents or commands are included."
+}

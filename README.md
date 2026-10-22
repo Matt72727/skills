@@ -43,6 +43,23 @@ which is awkward on Windows. To opt in, copy `optional/ecc-hooks/hooks.json` to 
 `optional/ecc-hooks/scripts` to `scripts` inside the plugin. Rules must be copied by hand into `~/.claude/rules/`.
 It is a snapshot and does not auto-update.
 
+## Optional vendored plugins (skills only)
+
+Installed separately, so they cost nothing on a device that doesn't install them. Each is a
+snapshot (source commit in its `UPSTREAM.md`) and does not auto-update. Hooks, MCP servers,
+agents and commands are not included.
+
+```
+/plugin install ecc@matt-skills
+/plugin install claude-mem-skills@matt-skills
+```
+
+- `ecc`: 311 skills from https://github.com/affaan-m/ecc (MIT). Every installed skill adds its
+  description to every session, so install it only where you want it.
+- `claude-mem-skills`: 27 skills from https://github.com/thedotmack/claude-mem (Apache-2.0).
+  18 of them (such as `mem-search`) need the upstream claude-mem plugin's memory server, which
+  is not included and records sessions through background hooks. See its `UPSTREAM.md`.
+
 ## Add a skill
 
 Create `plugins/my-skills/skills/<skill-name>/SKILL.md`, bump `version` in

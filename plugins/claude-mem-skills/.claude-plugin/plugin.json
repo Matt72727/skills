@@ -1,0 +1,5 @@
+{
+  "name": "claude-mem-skills",
+  "version": "15.0.1",
+  "description": "Skills only, vendored from thedotmack/claude-mem (Apache-2.0). The memory worker, hooks and MCP server are not included."
+}
