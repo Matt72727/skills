@@ -7,7 +7,7 @@
     {
       "name": "my-skills",
       "source": "./plugins/my-skills",
-      "description": "Matt's skills + everything-claude-code (agents, skills, commands) in one plugin"
+      "description": "Matt's personal skills (brag, brag-slim, hello-skill)"
     },
     {
       "name": "ecc",
