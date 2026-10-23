@@ -18,6 +18,11 @@
       "name": "claude-mem-skills",
       "source": "./plugins/claude-mem-skills",
       "description": "Skills only, vendored from thedotmack/claude-mem (27 skills). Memory-search skills need the upstream plugin."
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "source": "./plugins/ui-ux-pro-max",
+      "description": "Skills only, vendored from nextlevelbuilder/ui-ux-pro-max-skill (7 design skills). Needs Python 3 for the main skill."
     }
   ]
 }

@@ -42,6 +42,7 @@ agents and commands are not included.
 ```
 /plugin install ecc@matt-skills
 /plugin install claude-mem-skills@matt-skills
+/plugin install ui-ux-pro-max@matt-skills
 ```
 
 - `ecc`: 311 skills from https://github.com/affaan-m/ecc (MIT). Every installed skill adds its
@@ -49,6 +50,10 @@ agents and commands are not included.
 - `claude-mem-skills`: 27 skills from https://github.com/thedotmack/claude-mem (Apache-2.0).
   18 of them (such as `mem-search`) need the upstream claude-mem plugin's memory server, which
   is not included and records sessions through background hooks. See its `UPSTREAM.md`.
+- `ui-ux-pro-max`: 7 design skills from https://github.com/nextlevelbuilder/ui-ux-pro-max-skill (MIT).
+  The main skill searches a local database of styles, palettes, fonts and UX guidelines using
+  Python 3. A few of the others run `npx` or call image services when you give them a key; see
+  its `UPSTREAM.md`.
 
 ## Add a skill
 
